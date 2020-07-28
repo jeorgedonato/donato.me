@@ -1,0 +1,32 @@
+{
+  "name": "donato.me",
+  "version": "1.0.0",
+  "description": "My Web Portfolio",
+  "main": "app.js",
+  "scripts": {
+    "start": "node start",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Jeorge Donato",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.0",
+    "font-awesome": "^4.7.0",
+    "foundation-sites": "^6.6.3",
+    "moment": "^2.27.0",
+    "nodemailer": "^6.4.10"
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.2.0",
+    "helmet": "^3.23.3",
+    "nodemon": "^2.0.4",
+    "sass-loader": "^9.0.2",
+    "webpack": "^4.43.0"
+  }
+}
